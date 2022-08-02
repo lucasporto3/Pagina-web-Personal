@@ -1,0 +1,98 @@
+:root {
+  --blanco: #ffffff;
+  --primario: #ffc107;
+  --secundario: #0097a7;
+  --gris: #757575;
+  --oscuro: #212121;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+}
+
+.bloque {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.header {
+  background-image: url(../img/Fondo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.centrar {
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.centrar1 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0px;
+  color: white;
+}
+
+.logo {
+  color: var(--blanco);
+  margin-top: 10px;
+  width: 40%;
+  float: left;
+}
+
+.menu-principal {
+  width: 45%;
+  float: right;
+  background: black;
+  border-radius: 7px;
+}
+
+.menu-principal ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+.menu-principal ul li a {
+  color: var(--blanco);
+  text-decoration: none;
+  box-shadow: 0px 8px 50px;
+}
+
+.logo-img {
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  box-shadow: 0px 8px 50px;
+}
+
+.button {
+  margin-top: 25px;
+  font-size: medium;
+  background-color: black;
+  color: white;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  box-shadow: 0px 8px 50px;
+}
+
+.bloque3 {
+  column-count: 3; /* número de columnas */
+  column-gap: 100px; /* ancho de columnas */
+  column-rule: 5px outset #999999; /* separación de columnas */
+  margin-bottom: 50px;
+}
